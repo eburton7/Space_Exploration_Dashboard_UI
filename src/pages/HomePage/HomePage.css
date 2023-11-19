@@ -1,0 +1,141 @@
+/* HomePage.css */
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  overflow-x: hidden; /* Ensure no horizontal scroll */
+  background-color: #000; /* Dark background for the entire page */
+}
+
+/* Container for the Earth image, welcome message, and side sections */
+.header-image-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-image {
+  width: 100%;
+  height: 50vh; 
+  background: url('../../spaceship.png') no-repeat center center;
+  background-size: cover;
+  z-index: 1;
+}
+
+.welcome-message {
+  position: absolute;
+  z-index: 2;
+  font-size: 3rem; 
+  color: #ffffff; /* White color for the text */
+  text-shadow: 2px 2px 8px #000000; /* Black shadow to make it pop */
+  text-align: center;
+  width: 100%;
+  padding: 0 10%;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px; /* Rounded corners for the background */
+  margin-top: -2rem; 
+}
+
+.side-section {
+  position: absolute;
+  top: 80%;
+  transform: translateY(-50%);
+  z-index: 2;
+  color: #fff;
+  font-size: 1.2rem; /* Smaller font for better fit */
+  padding: 1rem;
+  background-color: rgba(71, 71, 71, 0.5);
+  border-radius: 10px;
+  display: none; /* Hide initially for better responsiveness */
+}
+
+.left {
+  left: 2%;
+}
+
+.right {
+  right: 2%;
+}
+
+/* White line separator */
+.separator {
+  width: 100%;
+  height: 2px; /* Height of the separator line */
+  background-color: white; /* White line color */
+  margin: 1rem 0; /* Spacing above and below the separator */
+}
+
+/* Container for the cards with information */
+.planets-and-cards-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping for multiple items */
+  justify-content: space-around; /* Evenly distribute space around items */
+  padding: 2rem; /* Padding around the container */
+}
+
+/* Styles for the information cards */
+.info-card {
+  background: rgba(0, 0, 0, 0.8); /* Semi-transparent dark background for the info cards */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Add a subtle border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add a shadow for a "floating" effect */
+  border-radius: 15px;
+  color: #ffffff; /* White text color for contrast */
+  padding: 1rem;
+  margin: 1rem;
+  width: 300px;
+  height: auto; /* Height to fit content */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+.info-card:hover {
+  transform: translateY(-5px); /* Slight lift effect on hover */
+}
+
+/* Style for the information card title */
+.info-card-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Style for the information card content */
+.info-card-content {
+  font-size: 1rem; /* Adjusted font size for content */
+  opacity: 0.7; /* Slightly dim the content for aesthetic purposes */
+}
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .welcome-message {
+    font-size: 3rem; /* Larger font size for wider screens */
+  }
+
+  .side-section {
+    display: block; /* Show on larger screens */
+    font-size: 1.5rem;
+  }
+
+  .left {
+    left: 2%; /* Adjust left independently */
+  }
+
+  .right {
+    right: 2%; /* Adjust right independently */
+  }
+}
+
+@media (min-width: 1024px) {
+  .welcome-message {
+    font-size: 4rem; /* Even larger font size for larger screens */
+  }
+
+  .side-section {
+    font-size: 2rem; /* Larger font size for side sections */
+  }
+}

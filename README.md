@@ -3,18 +3,17 @@
 ## Description
 The Space Exploration Dashboard is a web application designed to provide users with the latest updates on space missions, upcoming space-related events, and current space weather conditions. It's tailored for space enthusiasts and professionals alike to stay informed and engaged with the progress of space exploration.
 
-## Installation
+## Role in the App
+ This repository contains the user interface of the Space Exploration Dashboard, built with React. It offers a dynamic and interactive experience for users to engage with space exploration data.
 
-Instructions on how to install the Space Exploration Dashboard.
+## Running the Frontend
+In the project directory, you can run:
 
-TODO: **ADD INFO**
+npm start - Runs the app in the development mode. Open http://localhost:3000 to view it in your browser.
 
-## Running the Project
+npm test - Launches the test runner in the interactive watch mode.
 
-TODO: **ADD INFO**
-
-## Role in the Overall Application 
-
+npm run build - Builds the app for production to the build folder.
 
 ## Contributing
 

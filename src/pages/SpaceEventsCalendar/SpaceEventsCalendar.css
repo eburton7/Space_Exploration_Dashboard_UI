@@ -1,0 +1,24 @@
+.space-events-calendar {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .space-events-calendar h1 {
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .space-events-calendar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .space-events-calendar li {
+    background-color: #f4f4f4;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  

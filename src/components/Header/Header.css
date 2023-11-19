@@ -1,0 +1,46 @@
+/* Header component styles */
+.header {
+  background-color: #333; 
+  color: white;
+  padding: 10px 20px;
+  width: 100%;
+  border-bottom: 1px solid white; /* White line under the header */
+}
+
+.header-content {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Center header-content horizontally */
+  align-items: center;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: center; /* Center navigation items */
+  align-items: center;
+  gap: 20px; /* Spacing between navigation items */
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  transition: color 0.3s;
+  position: relative; /* For the underline effect */
+}
+
+.nav-item:hover, .nav-item.active {
+  color: #4e9af1; /* Highlight color on hover or when active */
+}
+
+.nav-item.active::after, .nav-item:hover::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%); /* Center the after pseudo-element */
+  width: 100%; /* Full width of the text */
+  height: 2px;
+  background-color: white; /* Underline color */
+  transition: background-color 0.3s;
+}
