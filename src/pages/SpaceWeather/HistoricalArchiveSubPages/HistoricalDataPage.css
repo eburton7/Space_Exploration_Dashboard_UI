@@ -1,0 +1,31 @@
+/* HistoricalDataPage.css */
+
+.historical-data-page {
+    padding: 20px;
+    color: #d02828;
+  }
+  
+  .chart-container {
+    margin-bottom: 30px;
+  }
+  
+  .timeline-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .timeline-year {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    background-color: #656667;
+    cursor: pointer;
+  }
+  
+  .timeline-year.selected {
+    background-color: #0056b3;
+    color: white;
+    border-color: #0056b3;
+  }
+  

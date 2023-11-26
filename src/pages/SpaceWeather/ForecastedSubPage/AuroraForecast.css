@@ -1,0 +1,23 @@
+/* AuroraForecast.css */
+
+.aurora-forecast {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #5c90c4;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .aurora-forecast h2 {
+    color: #0056b3;
+  }
+  
+  .aurora-map {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #d05d5d; /* Placeholder style */
+    border-radius: 5px;
+  }
+  

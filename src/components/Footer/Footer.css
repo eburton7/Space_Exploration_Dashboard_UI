@@ -1,9 +1,373 @@
-.main-footer {
-  background-color: #333; 
-  color: #fff;
-  text-align: center;
-  padding: 1rem;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+.footer-elem-118:hover,
+.footer-elem-116:hover,
+.footer-elem-117:hover,
+.footer-elem-115:hover {
+    color: #000000
+}
+
+.footer-elem-131:hover {
+    background-color: #f4eeffff
+}
+.footer-elem-130:hover {
+    background-color: #00000019
+}
+
+.footer-elem-104 {
+    padding: 48px 16px 16px 16px;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 64px;
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    min-height: 20vh;
+    min-width: 20px;
+    position: relative;
+    display: flex;
+    margin-bottom: nullpx
+}
+
+.footer-elem-121 {
+    padding: 0px 0px 0px 0px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1300px;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    position: relative;
+    min-height: 20px;
+    display: flex;
+    min-width: 20px
+}
+
+.footer-elem-113 {
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 12px;
+    display: flex;
+    height: -moz-fit-content;
+    height: fit-content;
+    min-width: 30%;
+    min-height: 20px;
+    width: -moz-fit-content;
+    width: fit-content;
+    position: relative
+}
+
+.footer-elem-130 {
+    font-family: Kumbh Sans;
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffffff;
+    line-height: 32px;
+    opacity: 100%;
+    z-index: 1;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.footer-elem-112 {
+    font-family: Kumbh Sans;
+    font-size: 19px;
+    font-weight: 600;
+    color: #FFF;
+    line-height: 29px;
+    opacity: 100%;
+    z-index: 1;
+    min-height: 10px;
+    height: -moz-fit-content;
+    height: fit-content;
+    min-width: 16px;
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 350px
+}
+
+.footer-elem-120 {
+    padding: 0px 0px 0px 0px;
+    justify-content: flex-start;
+    width: 100%;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    display: flex;
+    height: -moz-fit-content;
+    height: fit-content;
+    min-height: 20px;
+    max-width: 150px;
+    position: relative
+}
+
+.footer-elem-119 {
+    align-items: flex-start;
+    row-gap: 12px;
+    flex-direction: column;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    min-width: 20px;
+    height: -moz-fit-content;
+    height: fit-content;
+    min-height: 20px;
+    position: relative
+}
+
+.footer-elem-114 {
+    font-family: Kumbh Sans;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff7f;
+    line-height: 24px;
+    min-height: 10px;
+    display: block;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: auto;
+    min-width: 16px;
+    position: relative
+}
+
+.footer-elem-118 {
+    row-gap: 12px;
+    font-family: Kumbh Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffffff;
+    line-height: 24px;
+    height: auto;
+    min-height: 10px;
+    display: block;
+    min-width: 16px;
+    width: -moz-fit-content;
+    width: fit-content;
+    position: relative
+}
+
+.footer-elem-116 {
+    row-gap: 12px;
+    font-family: Kumbh Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffffff;
+    line-height: 24px;
+    display: block;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: auto;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.footer-elem-117 {
+    row-gap: 12px;
+    font-family: Kumbh Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffffff;
+    line-height: 24px;
+    min-height: 10px;
+    min-width: 16px;
+    display: block;
+    height: auto;
+    width: -moz-fit-content;
+    width: fit-content;
+    position: relative
+}
+
+.footer-elem-115 {
+    row-gap: 12px;
+    font-family: Kumbh Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffffff;
+    line-height: 24px;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: block;
+    min-width: 16px;
+    height: auto;
+    min-height: 10px;
+    position: relative
+}
+
+.footer-elem-127 {
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 12px;
+    display: flex;
+    height: -moz-fit-content;
+    height: fit-content;
+    min-width: 30%;
+    min-height: 20px;
+    width: -moz-fit-content;
+    width: fit-content;
+    position: relative
+}
+
+.footer-elem-125 {
+    font-family: Kumbh Sans;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff7f;
+    line-height: 26px;
+    opacity: 100%;
+    z-index: 1;
+    min-height: 10px;
+    height: -moz-fit-content;
+    height: fit-content;
+    min-width: 16px;
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 350px
+}
+
+.footer-elem-126 {
+    font-family: Kumbh Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffffff;
+    line-height: 26px;
+    opacity: 100%;
+    z-index: 1;
+    min-height: 10px;
+    height: -moz-fit-content;
+    height: fit-content;
+    min-width: 16px;
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 350px
+}
+
+.footer-elem-128 {
+    padding: 22px 0px 0px 0px;
+    align-items: stretch;
+    -moz-column-gap: 6px;
+         column-gap: 6px;
+    row-gap: 6px;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    position: relative
+}
+
+.footer-elem-129 {
+    padding: 8px 16px 8px 16px;
+    font-family: Kumbh Sans;
+    font-size: 16px;
+    color: #000000;
+    line-height: 26px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 16px 16px 16px 16px;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative
+}
+
+.footer-elem-131 {
+    padding: 12px 26px 12px 26px;
+    background-color: #DCD6F7;
+    border-radius: 16px 16px 16px 16px;
+    border-width: 0px 0px 0px 0px;
+    border-style: groove groove groove groove;
+    border-color: #333 #333 #333 #333;
+    font-family: Kumbh Sans;
+    font-size: 16px;
+    font-weight: 600;
+    color: #111;
+    line-height: 26px;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    position: relative
+}
+
+.footer-elem-105 {
+    padding: 32px 0px 32px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-width: 1px 0px 0px 0px;
+    border-style: solid none none none;
+    border-color: #00000019 transparent transparent transparent;
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    min-height: 20px;
+    min-width: 20px;
+    position: relative;
+    max-width: 1300px;
+    display: flex
+}
+
+.footer-elem-106 {
+    font-family: Kumbh Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff7f;
+    line-height: 26px;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: auto;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.footer-elem-109 {
+    justify-content: center;
+    background-color: #A6B1E1;
+    border-radius: 20px 20px 20px 20px;
+    z-index: 1;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    position: relative
+}
+
+.footer-elem-108 {
+    padding: 22px 16px 22px 16px;
+    justify-content: space-between;
+    align-items: center;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid none none none;
+    border-color: #00000019 transparent transparent transparent;
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    min-height: 20px;
+    min-width: 20px;
+    position: relative;
+    max-width: 1280px;
+    display: flex
+}
+
+.footer-elem-107 {
+    font-family: Kumbh Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000ff;
+    line-height: 26px;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: auto;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
 }

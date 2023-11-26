@@ -1,0 +1,130 @@
+
+
+@media (max-width:1199px) {}
+
+
+@media (max-width:1199px) {
+
+    .home-elem-13 {
+        position: relative
+    }
+
+    .home-elem-14 {
+        justify-content: center;
+        align-items: center
+    }
+
+    .home-elem-15 {
+        justify-content: center
+    }
+
+    .home-elem-16 {
+        justify-content: center
+    }
+
+    .home-elem-17 {
+        justify-content: center
+    }
+
+    .home-elem-20 {
+        max-width: 720px
+    }
+
+    .home-elem-32 {
+        padding: 100px 0px 0px 0px
+    }
+
+    .home-elem-33 {
+        row-gap: 50px
+    }
+
+    .home-elem-73 {
+        row-gap: 40px
+    }
+
+    .home-elem-57 {
+        flex-direction: row;
+        justify-content: center;
+        height: auto
+    }
+
+    .home-elem-54 {
+        max-width: 480px
+    }
+
+    .home-elem-50 {
+        min-height: 10px;
+        min-width: 16px;
+        display: block
+    }
+
+    .home-elem-77 {
+        height: fit-content
+    }
+
+    .home-elem-65 {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center
+    }
+
+    .home-elem-61 {
+        height: fit-content
+    }
+
+    .home-elem-59 {
+        min-width: 16px;
+        min-height: 10px;
+        display: block
+    }
+
+    .home-elem-58 {
+        height: auto;
+        min-height: 350px;
+        display: block
+    }
+
+    .home-elem-62 {
+        max-width: 480px
+    }
+
+    .home-elem-72 {
+        justify-content: center
+    }
+
+    .home-elem-67 {
+        max-width: 480px
+    }
+
+    .home-elem-69 {
+        min-height: 10px;
+        display: block;
+        min-width: 16px
+    }
+
+    .home-elem-79 {
+        height: fit-content
+    }
+
+    .home-elem-81 {
+        height: auto;
+        min-height: 20px
+    }
+
+    .home-elem-100 {
+        min-width: 18px;
+        min-height: 18px
+    }
+
+    .home-elem-121 {
+        padding: 0px 16px 0px 16px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: baseline;
+        column-gap: 22px;
+        row-gap: 22px
+    }
+}
+
+
+@media (max-width:1199px) {}

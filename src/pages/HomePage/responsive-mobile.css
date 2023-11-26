@@ -1,0 +1,152 @@
+
+
+@media (max-width:767px) {}
+
+
+@media (max-width:767px) {
+
+    .home-elem-13 {
+        position: relative
+    }
+
+    .home-elem-14 {
+        justify-content: center;
+        align-items: center
+    }
+
+    .home-elem-15 {
+        justify-content: center
+    }
+
+    .home-elem-16 {
+        justify-content: center
+    }
+
+    .home-elem-17 {
+        justify-content: center
+    }
+
+    .home-elem-20 {
+        max-width: none
+    }
+
+    .home-elem-22 {
+        font-size: 49px;
+        line-height: 59px
+    }
+
+    .home-elem-49 {
+        font-size: 36px;
+        line-height: 46px
+    }
+
+    .home-elem-57 {
+        height: auto
+    }
+
+    .home-elem-54 {
+        max-width: 480px
+    }
+
+    .home-elem-50 {
+        min-height: 10px;
+        display: block;
+        min-width: 16px
+    }
+
+    .home-elem-77 {
+        height: fit-content
+    }
+
+    .home-elem-65 {
+        flex-direction: column-reverse
+    }
+
+    .home-elem-61 {
+        height: fit-content
+    }
+
+    .home-elem-59 {
+        min-height: 10px;
+        display: block;
+        min-width: 16px
+    }
+
+    .home-elem-58 {
+        height: auto;
+        min-height: 350px;
+        display: block
+    }
+
+    .home-elem-62 {
+        max-width: 480px
+    }
+
+    .home-elem-67 {
+        max-width: 480px
+    }
+
+    .home-elem-69 {
+        display: block;
+        min-height: 10px;
+        min-width: 16px
+    }
+
+    .home-elem-79 {
+        height: fit-content
+    }
+
+    .home-elem-80 {
+        flex-direction: column
+    }
+
+    .home-elem-81 {
+        padding: 32px 32px 32px 32px;
+        width: 100%;
+        min-height: 20px
+    }
+
+    .home-elem-100 {
+        min-width: 18px;
+        min-height: 18px
+    }
+
+    .home-elem-102 {
+        font-size: 15px;
+        line-height: 25px
+    }
+
+    .home-elem-121 {
+        padding: 0px 16px 0px 16px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: baseline;
+        row-gap: 22px
+    }
+
+    .home-elem-119 {
+        width: 100%
+    }
+
+    .home-elem-128 {
+        flex-wrap: wrap
+    }
+
+    .home-elem-105 {
+        padding: 32px 16px 32px 16px
+    }
+
+    .home-elem-108 {
+        padding: 32px 0px 32px 0px;
+        flex-direction: column;
+        row-gap: 16px
+    }
+
+    .home-elem-111 {
+        column-gap: 26px;
+        row-gap: 10px
+    }
+}
+
+
+@media (max-width:767px) {}

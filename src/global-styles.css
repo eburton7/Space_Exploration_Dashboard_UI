@@ -1,43 +1,5 @@
 /* global-styles.css */
 
-/* Body Styles */
-body {
-    background-color: #333; 
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    color: #fff;
-  }
-  
-  /* Container Styles */
-  .page-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem;
-  }
-  
-  /* Link Styles */
-  a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Button Styles */
-  .button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-  }
-  
-  .button:hover {
-    background-color: #0056b3;
-  }
-  
   /* Form Styles */
   input[type="text"],
   input[type="password"],
@@ -68,3 +30,304 @@ body {
     margin: 0.5rem 1rem;
   }
   
+
+
+/* Universal Selector Styles */
+* {
+  line-height: 1;
+}
+
+/* Reset Styles */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* Body and Typography */
+body {
+  font-family: "Nunito Sans";
+  line-height: 1;
+}
+
+h1, h2, h3, h4, h5, h6, p, .paragraph {
+  font-weight: 300;
+}
+
+/* Links */
+a, a:link, a:visited, a:focus, a:hover, a:active {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Utility Classes */
+.left { text-align: left; }
+.right { text-align: right; }
+.center { text-align: center; margin-left: auto; margin-right: auto; }
+.justify { text-align: justify; }
+
+/* Container Class */
+.container {
+  max-width: 1140px;
+  width: 100% !important;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+
+/* Image Styles */
+img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: inherit;
+     object-fit: inherit;
+  border-radius: inherit;
+}
+
+/* Span Block Display */
+span { display: block; }
+
+/* Paragraph Styles */
+.paragraph {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+input,
+textarea,
+select {
+  min-height: 20px;
+  border: 0;
+  font-size: 16px
+}
+
+.headerOne,
+.headerTwo,
+.headerThree,
+.headerFour,
+.headerFive,
+.headerSix,
+.paragraph {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  margin: 0.1rem 0;
+  width: 100%
+}
+
+.lg-text-center-vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: inherit
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block
+}
+
+
+ol,
+ul {
+  list-style: none
+}
+
+blockquote,
+q {
+  quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  line-height: 1
+}
+
+
+html {
+  font-size: 100%
+}
+
+/* Media Queries for Responsive Design */
+@media (min-width:576px) and (max-width:768px) {
+  .container {
+      max-width: 540px
+  }
+
+  body {
+      background-color: #424874
+  }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+  .container {
+      max-width: 720px
+  }
+
+  body {
+      background-color: #424874
+  }
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+  .container {
+      max-width: 960px
+  }
+
+  body {
+      background-color: #424874
+  }
+}
+/* Global h2 styles */
+h2 {
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #ffffff; 
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  opacity: 1; 
+  z-index: 1;
+  display: block;
+  height: fit-content;
+  min-width: 16px;
+  min-height: 10px;
+  position: relative;
+  width: fit-content;
+}
+
+/* Global p styles */
+p {
+  color: #ffffff99;
+  opacity: 1; 
+  font-family: 'Kumbh Sans', sans-serif;
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 20px;
+  z-index: 1;
+  min-width: 16px;
+  min-height: 10px;
+  position: relative;
+  width: fit-content;
+  display: block;
+  height: fit-content;
+}

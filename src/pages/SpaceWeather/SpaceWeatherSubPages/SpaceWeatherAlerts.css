@@ -1,0 +1,34 @@
+.space-weather-alerts-section {
+    background-color: #ff4c4c;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  .space-weather-alerts-section h2 {
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .space-weather-alerts-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .space-weather-alerts-section li {
+    margin: 5px 0;
+    font-size: 1.2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .space-weather-alerts-section h2 {
+      font-size: 1.2rem;
+    }
+  
+    .space-weather-alerts-section li {
+      font-size: 1rem;
+    }
+  }
+  

@@ -1,0 +1,22 @@
+/* InteractiveSpaceMap.css */
+
+.interactive-space-map {
+    width: 100%;
+    max-width: 800px; 
+    margin: 0 auto;
+    border: 1px solid #9e9d9d; 
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .geography {
+    fill: #ccc;
+    stroke: #fff;
+    transition: fill 0.3s ease;
+  }
+  
+  .geography:hover {
+    fill: #007bff; /* Highlight on hover */
+    cursor: pointer;
+  }
+  

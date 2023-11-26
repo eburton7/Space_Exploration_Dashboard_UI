@@ -1,23 +1,49 @@
 import React from 'react';
+import './Header.css'
 import { NavLink } from 'react-router-dom';
-import './Header.css';
 
-const Header = () => {
+function Header() {
   return (
-    <header className="header">
-      <div className="header-content">
-        <nav className="main-nav">
-          <NavLink to="/" exact className="nav-item" activeClassName="active">HOME</NavLink>
-          <NavLink to="/SpaceWeather" className="nav-item" activeClassName="active">SPACE WEATHER</NavLink>
-          <NavLink to="/SpaceEventsCalendar" className="nav-item" activeClassName="active">SPACE CALENDAR</NavLink>
-          <NavLink to="/gallery" className="nav-item" activeClassName="active">GALLERY</NavLink>
-          <NavLink to="/MissionDetails" className="nav-item" activeClassName="active">MISSIONS</NavLink>
-          <NavLink to="/latest-research" className="nav-item" activeClassName="active">LATEST RESEARCH</NavLink>
-          <NavLink to="/login" className="nav-item" activeClassName="active">LOGIN</NavLink>
-        </nav>
+    <header className="header-elem-1">
+    <div className="header-elem-2">
+      <div className="header-elem-3">
+        {" "}
+        <span className="header-elem-4">
+        <a href="/" className="link" target="_self">
+          Space Exploration Dashboard
+          </a>
+        </span>
+      </div>
+      <div className="header-elem-5">
+        <div className="header-elem-6">
+          {" "}
+          <span className="header-elem-7">
+          <NavLink to="/missiondetails" className="link">
+                Missions
+          </NavLink>
+          </span>
+          <span className="header-elem-8">
+          <NavLink to="/spaceeventscalendar" className="link">
+                Events
+          </NavLink>
+          </span>
+          <span className="header-elem-9">
+          <NavLink to="/spaceweather" className="link">
+                Weather
+          </NavLink>
+          </span>
+        </div>
+      </div>
+      <div className="header-elem-10">
+        {" "}
+        <button className="header-elem-11">
+          Explore Now
+        </button>
+      </div>
+      <div className="header-elem-12"> </div>
       </div>
     </header>
   );
-};
+}
 
 export default Header;
