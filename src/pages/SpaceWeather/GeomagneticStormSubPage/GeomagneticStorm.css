@@ -1,0 +1,37 @@
+/* Styles specific to GeomagneticStorm component */
+
+.geomagnetic-storm-timeline {
+    background-color: #f2f2f2;  /* Light background for contrast */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  /* Soft shadow for depth */
+    margin: 20px 0;
+}
+
+
+.geomagnetic-storm-timeline .filter-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;  /* Responsive behavior */
+}
+
+.geomagnetic-storm-timeline .filter-section label {
+    font-size: 1rem;
+    color: #333;  /* Dark color for readability */
+    margin: 5px;
+}
+
+.geomagnetic-storm-timeline input[type="date"],
+.geomagnetic-storm-timeline input[type="number"] {
+    padding: 8px;
+    border: 1px solid #ccc;  /* Subtle border */
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+/* Timeline specific styles */
+.react-calendar-timeline {
+    background-color: white;
+    border-radius: 4px;
+}

@@ -11,6 +11,7 @@ import SatelliteEnvironmentStatus from './SpaceWeatherSubPages/SatelliteEnvironm
 import HistoricalDataPage from './HistoricalArchiveSubPages/HistoricalDataPage';
 import AuroraForecast from './ForecastedSubPage/AuroraForecast';
 import SpaceWeatherResources from './WeatherResourcesSubPage/SpaceWeatherResources';
+import GeomagneticStorm from './GeomagneticStormSubPage/GeomagneticStorm';
 import './SpaceWeatherSubPages/InteractiveSpaceMap.css';
 import './SpaceWeatherSubPages/LiveDataFeed.css';
 import './SpaceWeatherSubPages/SpaceWeatherAlerts.css';
@@ -116,7 +117,10 @@ const SpaceWeather = () => {
         <h2>Space Weather Resources</h2>
         <SpaceWeatherResources />
       </section> 
-       
+      <section className="geomagnetic-storm-section">
+                <h2>Geomagnetic Storm Timeline</h2>
+                <GeomagneticStorm />
+      </section>
       <Footer />
     </div>
   );

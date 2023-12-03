@@ -1,0 +1,66 @@
+/* General container styling */
+.space-events-filter {
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    color: #333;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.space-events-filter select,
+.space-events-filter input[type="number"] {
+    margin: 10px 10px 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.space-events-filter table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+}
+
+.space-events-filter th,
+.space-events-filter td {
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    text-align: left;
+}
+
+.space-events-filter th {
+    background-color: #eee;
+    color: #333;
+    font-weight: 500;
+}
+
+.space-events-filter tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.space-events-filter tbody tr:hover {
+    background-color: #ddd;
+}
+
+.loading,
+.error {
+    text-align: center;
+    padding: 10px;
+}
+
+.utc-note {
+    text-align: center;
+    font-size: 0.85em;
+    margin: 10px 0;
+    color: #666;
+}
+/* Responsive table */
+@media screen and (max-width: 600px) {
+    .space-events-filter table {
+      display: block;
+      overflow-x: auto;
+    }
+  }

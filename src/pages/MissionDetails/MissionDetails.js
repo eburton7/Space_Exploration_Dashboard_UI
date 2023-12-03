@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Header from '../../components/Header/Header.js';
 import Footer from '../../components/Footer/Footer.js';
 import './MissionDetails.css';
+import 'leaflet/dist/leaflet.css'; 
 
 // Import the images
 import starynightImage from '../../assets/starynight.png';
 import darkmoonImage from '../../assets/darkmoon.png';
 import RocketImage from '../../assets/rocketship.png';
-
+// Import the satellite map component
+import SatelliteMap from './SatelliteMap';
 
 export const SpaceMissionCard = ({ image, title, description }) => {
   return (
@@ -23,6 +25,13 @@ export const SpaceMissionCard = ({ image, title, description }) => {
 };
 
 const MissionDetails = () => {
+  const [selectedSatelliteId, setSelectedSatelliteId] = useState('');
+
+  const handleSatelliteIdChange = (event) => {
+    setSelectedSatelliteId(event.target.value);
+  };
+
+
   return (
     <div>
       <Header />
@@ -130,6 +139,12 @@ const MissionDetails = () => {
           <h3>Training Programme</h3>
           <p>Understand how astronauts are prepared for the rigors of space missions.</p>
         </div>
+        <div className="real-time-map">
+        <h3>Real-Time Satellite Tracking</h3>
+        <p>Enter a satellite ID to track its current position.</p>
+        <input type="text" placeholder="Enter Satellite ID" onChange={handleSatelliteIdChange} />
+        <SatelliteMap satelliteId={selectedSatelliteId} />
+      </div>
       </div>
       <Footer />
     </div>
