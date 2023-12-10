@@ -21,6 +21,10 @@
   background-color: #f4eeffff;
 }
 
+.error{
+  color: red;
+}
+
 
 .home-elem-13 {
   padding: 32px 16px 32px 16px;
@@ -1535,13 +1539,13 @@
   position: relative
 }
 
-.home-elem-103 {
-  padding: 12px 26px 12px 26px;
+.home-elem-103  {
+  padding: 12px 26px;
   background-color: #DCD6F7;
-  border-radius: 16px 16px 16px 16px;
-  border-width: 0px 0px 0px 0px;
-  border-style: groove groove groove groove;
-  border-color: #333 #333 #333 #333;
+  border-radius: 16px;
+  border-width: 0px;
+  border-style: groove;
+  border-color: #333;
   font-family: Kumbh Sans;
   font-size: 16px;
   font-weight: 600;

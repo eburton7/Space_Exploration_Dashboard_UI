@@ -1,0 +1,20 @@
+.accordion {
+  background-color:#424874; 
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-header:hover {
+  background-color: #283593; 
+}
+
+.accordion-body {
+  background-color: #424874;
+  color: #ffffff; 
+  line-height: 1.6;
+  padding: 15px;
+}

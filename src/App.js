@@ -3,9 +3,10 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage/HomePage.js';
 import MissionDetails from './pages/MissionDetails/MissionDetails.js';
 import SpaceWeather from './pages/SpaceWeather/SpaceWeather.js';
-import UserProfile from './pages/UserProfile/UserProfile.js';
 import SpaceEventsCalendar from './pages/SpaceEventsCalendar/SpaceEventsCalendar.js';
-import LoginPage from './pages/LoginPage/LoginPage.js'; 
+import AboutUs from './pages/AboutUs/AboutUs';
+import ResourcesPage from './pages/Resources/Resources';
+
 import './App.css';
 
 
@@ -25,9 +26,9 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/MissionDetails" element={<MissionDetails />} />
           <Route path="/SpaceWeather" element={<SpaceWeather />} />
-          <Route path="/UserProfile" element={<UserProfile user={user} />} />
           <Route path="/SpaceEventsCalendar" element={<SpaceEventsCalendar />} />
-          <Route path="/login" element={<LoginPage />} /> 
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/resources" element={<ResourcesPage />} />
         </Routes>
       </div>
     </Router>

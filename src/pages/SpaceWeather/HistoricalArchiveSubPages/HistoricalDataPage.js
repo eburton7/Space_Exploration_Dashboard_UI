@@ -29,6 +29,7 @@ ChartJS.register(
 const SolarFlareChart = ({ selectedYear }) => {
   const [flares, setFlares] = useState([]);
 
+  
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -82,6 +83,7 @@ const SolarFlareChart = ({ selectedYear }) => {
     ],
   };
 
+
   const chartOptions = {
     scales: {
       y: {
@@ -89,9 +91,25 @@ const SolarFlareChart = ({ selectedYear }) => {
         title: {
           display: true,
           text: 'Count',
+          color: '#FFFFFF', // Text color for the Y-axis title
         },
+        ticks: {
+          color: '#FFFFFF', // Text color for the Y-axis ticks
+        }
       },
+      x: {
+        ticks: {
+          color: '#FFFFFF', // Text color for the X-axis ticks
+        }
+      }
     },
+    plugins: {
+      legend: {
+        labels: {
+          color: '#FFFFFF', // Text color for legend labels
+        }
+      },
+    }
   };
 
   return (
@@ -113,11 +131,10 @@ const HistoricalDataPage = () => {
 
   return (
     <div className="historical-data-page">
-      <h1>Historical Space Weather Data</h1>
       <SolarFlareChart selectedYear={selectedYear} />
       {/* Interactive Timeline */}
+      <h2 className="timeline-heading">Filter by Year</h2>
       <div className="timeline-container">
-        <h2>Interactive Timeline</h2>
         <button
           onClick={() => setSelectedYear('All History')}
           className={`timeline-year ${

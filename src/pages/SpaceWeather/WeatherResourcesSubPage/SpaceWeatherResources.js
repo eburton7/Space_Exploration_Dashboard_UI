@@ -23,37 +23,10 @@ const SpaceWeatherResources = () => {
     { question: "Is space weather dangerous?", answer: "Space weather can affect satellites and power systems, but we're safe from its direct effects here on Earth thanks to our planet's magnetic field and atmosphere." },
     { question: "What are sunspots?", answer: "Sunspots are cooler, darker areas on the Sun's surface. They can be a sign of solar activity like solar flares." },
   ];
-
-  const resources = [
-    { title: "Understanding Solar Activity", url: "https://example.com/solar-activity" },
-    { title: "Effects of Geomagnetic Storms", url: "https://example.com/geomagnetic-storms" },
-    // Additional resources for research scientists
-    { title: "Advanced Space Weather Research", url: "https://example.com/advanced-research" },
-    { title: "Space Weather Prediction Center", url: "https://www.swpc.noaa.gov/" },
-    { title: "International Space Weather Initiative", url: "https://example.com/international-initiative" },
-    // Kid-friendly resources
-    { title: "Space Weather for Kids", url: "https://example.com/space-weather-kids" },
-    { title: "Young Astronomer's Guide to the Galaxy", url: "https://example.com/young-astronomer-guide" },
-    { title: "Fun Facts About Solar Flares", url: "https://example.com/solar-flares-kids" },
-  ];
-
-
   return (
     <div className="space-weather-resources">
-      <h2>Space Weather Educational Resources</h2>
-
-      {/* Resource Links */}
-      <div className="resource-links">
-        {resources.map((resource, index) => (
-          <a key={index} href={resource.url} target="_blank" rel="noopener noreferrer">
-            {resource.title}
-          </a>
-        ))}
-      </div>
-
       {/* FAQs */}
       <div className="faqs">
-        <h3>Frequently Asked Questions</h3>
         {faqs.map((faq, index) => (
           <div key={index} className="faq-item">
             <button onClick={() => toggleFaq(index)} className="faq-question">

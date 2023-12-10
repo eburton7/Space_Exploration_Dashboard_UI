@@ -2,7 +2,8 @@
 
 /* Hero Section */
 .hero-section {
-  background-image: url('../../assets/SpaceWeatherHeroImage.png'); 
+  position: relative;
+  background-image: url('../../assets/SpaceWeatherHeroImage.png');
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -13,6 +14,7 @@
   text-align: left;
   padding: 0 10%;
   box-sizing: border-box;
+
 }
 
 .hero-content {
@@ -106,7 +108,7 @@
 }
 
 .service.tile {
-  margin-top: 2rem;
+
   margin: 1rem;
   padding: 1rem;
   flex-basis: calc(33.333% - 2rem);
@@ -160,20 +162,20 @@
   align-items: center;
   padding: 4rem 10%;
   max-width: 100%; 
-
+margin-bottom: 1;
 }
 
 .about-us-content {
   flex-basis: 100%;
   max-width: 12000px; 
   margin: auto;
-  margin-bottom: 2rem;
+
 }
 
 .about-us-content h2 {
   white-space: pre-line;
   font-size: 2.5rem;
-  margin-bottom: 1rem;
+
 }
 
 .about-us-content p {
@@ -195,34 +197,9 @@
   border-radius: 8px; 
 }
 
-.space-weather-alerts-section {
-  background-color: #ff4c4c;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
-}
-
-.space-weather-alerts-section h2 {
-  margin: 0;
-  padding-bottom: 10px;
-  font-size: 1.5rem;
-}
-
-.space-weather-alerts-section ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.space-weather-alerts-section li {
-  margin: 5px 0;
-  font-size: 1.2rem;
-}
-
 /* Additional Global Styles */
 section {
   margin-bottom: 2rem;
-
 }
 
 h2 {
@@ -234,12 +211,6 @@ p {
   font-size: 1rem;
   color: rgb(255, 255, 255);
   line-height: 1.6;
-}
-.interactive-map-section, .satellite-environment-section {
-padding: 20px;
-margin-top: 20px;
-background-color: #aca7a7;
-border-radius: 10px;
 }
 
 .live-data-feed-section {

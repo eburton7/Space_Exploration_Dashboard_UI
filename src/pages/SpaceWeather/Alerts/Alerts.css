@@ -1,0 +1,10 @@
+.electron-flux-alert p {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 5px;
+}
+.electron-flux-alert .alert pre {
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    max-height: 100%; /* Set max height to prevent internal scrolling */
+}

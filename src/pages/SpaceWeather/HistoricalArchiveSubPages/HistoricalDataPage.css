@@ -4,15 +4,24 @@
     padding: 20px;
     color: #d02828;
   }
-  
+  .solar-flare-chart h2 {
+    margin-bottom: 30px;
+  }
+
   .chart-container {
     margin-bottom: 30px;
   }
-  
+  .timeline-heading {
+    margin-top: 30px;
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Add some space between the heading and the buttons */
+  }
   .timeline-container {
     display: flex;
     justify-content: center;
     margin-top: 30px;
+    gap: 10px;
+    flex-wrap: wrap;
   }
   
   .timeline-year {

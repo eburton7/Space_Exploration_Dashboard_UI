@@ -1,37 +1,95 @@
-/* Styles specific to GeomagneticStorm component */
+/* GeomagneticStorm.css */
 
 .geomagnetic-storm-timeline {
-    background-color: #f2f2f2;  /* Light background for contrast */
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  /* Soft shadow for depth */
-    margin: 20px 0;
-}
-
-
-.geomagnetic-storm-timeline .filter-section {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #927f99;
+  }
+  
+  .filters {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
-    flex-wrap: wrap;  /* Responsive behavior */
-}
-
-.geomagnetic-storm-timeline .filter-section label {
-    font-size: 1rem;
-    color: #333;  /* Dark color for readability */
-    margin: 5px;
-}
-
-.geomagnetic-storm-timeline input[type="date"],
-.geomagnetic-storm-timeline input[type="number"] {
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .filter-item {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  
+  .filter-item label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .filter-item input[type="date"],
+  .filter-item input[type="number"] {
     padding: 8px;
-    border: 1px solid #ccc;  /* Subtle border */
+    border: 1px solid #ccc;
     border-radius: 4px;
-    font-size: 1rem;
-}
-
-/* Timeline specific styles */
-.react-calendar-timeline {
-    background-color: white;
+    font-size: 16px;
+  }
+  
+  .time-jump-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .time-jump-buttons button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+  }
+  
+  .time-jump-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .time-jump-buttons button.selected {
+    background-color: #004080;
+    font-weight: bold;
+  }
+  
+  /* Custom styles for the react-calendar-timeline component */
+  .react-calendar-timeline .rct-label {
+    font-size: 14px;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border-right: 1px solid #ddd;
+  }
+  
+  .react-calendar-timeline .rct-item {
     border-radius: 4px;
-}
+    border: 1px solid #007bff;
+    background-color: #007bff33;
+    color: #007bff;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 5px;
+  }
+  
+  /* Styles for the overall timeline */
+  .react-calendar-timeline {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Hide the default scroll bar for a cleaner look */
+  .react-calendar-timeline .rct-scroll {
+    overflow: hidden !important;
+  }
+  

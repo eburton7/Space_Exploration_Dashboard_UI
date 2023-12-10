@@ -6,7 +6,7 @@ import { FaSatellite } from 'react-icons/fa';
 import ReactDOMServer from 'react-dom/server';
 import 'leaflet/dist/leaflet.css'; 
 
-const SatelliteMap = ({ satelliteId }) => {
+const SatelliteMap = ({ satelliteId, satelliteDetails }) => {
   const [satellitePosition, setSatellitePosition] = useState(null);
   const [errorMessage, setErrorMessage] = useState('');
 
@@ -67,18 +67,28 @@ const SatelliteMap = ({ satelliteId }) => {
     <div className="satellite-map">
       {errorMessage && <p className="error-message">{errorMessage}</p>}
       <MapContainer center={[0, 0]} zoom={2} style={{ height: '400px', width: '100%' }}>
-        <TileLayer
+      <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         />
         {satellitePosition && (
           <Marker position={satellitePosition} icon={satelliteIcon}>
             <Popup>
-              Satellite {satelliteId}<br />Latitude: {satellitePosition[0]}, Longitude: {satellitePosition[1]}
+              Satellite {satelliteId}
+              <br />
+              Launch Date: {satelliteDetails ? satelliteDetails.launchDate : "Loading..."}
+      <br />
+              Latitude: {satellitePosition[0]}, Longitude: {satellitePosition[1]}
             </Popup>
           </Marker>
         )}
       </MapContainer>
+      <div className="satellite-info">
+  <h2>Understanding Satellite Identifiers</h2>
+  <p>
+    Satellites orbiting the Earth are identified using unique NORAD catalog numbers. These numbers, ranging from 1 to over 43,000, are assigned sequentially by the United States Space Command (USSPACECOM). Each number uniquely identifies a satellite, with the International Space Station (ISS) being designated as NORAD ID 25544. This system ensures precise tracking and identification of every satellite in Earth's orbit.
+  </p>
+</div>
     </div>
   );
 };

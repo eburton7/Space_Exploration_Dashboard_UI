@@ -11,7 +11,33 @@
   position: relative;
   background-color: (66, 72, 116);
 }
+.satellite-info {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  height: auto;
+  width: 100%;
+  display: flex;
+  margin-right: NaNpx;
+  position: relative;
 
+}
+.satellite-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.satellite-item:hover {
+  text-decoration: underline; /* Underline effect on hover */
+}
+.satellite-item {
+  cursor: pointer;
+  color: rgb(247, 138, 138);
+}
 
 .mission-elem-19 {
   padding: 1px 16px 1px 16px;
@@ -216,7 +242,20 @@ max-width: none;
 .mission-button:hover {
   background-color: #C5C0E5; 
 }
+.real-time-map{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  height: auto;
+  width: 100%;
+  display: flex;
+  margin-right: NaNpx;
+  position: relative;
+  background-color: (66, 72, 116);
 
+}
 .real-time-mission {
   margin-top: 89px;
   display: flex;

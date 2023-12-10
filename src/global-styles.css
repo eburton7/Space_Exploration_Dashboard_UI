@@ -12,13 +12,13 @@
   }
   
   button[type="submit"] {
-    background-color: #007bff;
-    color: #fff;
+    background-color: #DCD6F7;
+
     cursor: pointer;
   }
   
   button[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #f4eeffff
   }
   
   /* Spacing and Margins */

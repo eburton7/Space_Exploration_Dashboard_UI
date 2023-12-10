@@ -33,7 +33,9 @@ function Header() {
           </div>
         </div>
         <div className="header-elem-10">
-          <button className="header-elem-11">Explore Now</button>
+        <NavLink to="/missiondetails" className="header-elem-11">
+            Explore Now
+          </NavLink>
         </div>
         <div className="header-elem-12"></div>
       </div>

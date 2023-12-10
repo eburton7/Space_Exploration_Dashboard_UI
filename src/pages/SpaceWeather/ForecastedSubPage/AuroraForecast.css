@@ -1,23 +1,35 @@
 /* AuroraForecast.css */
 
+/* Styles for the main container */
 .aurora-forecast {
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
-    background-color: #5c90c4;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  
-  .aurora-forecast h2 {
-    color: #0056b3;
-  }
-  
-  .aurora-map {
-    margin-top: 20px;
-    padding: 15px;
-    background-color: #d05d5d; /* Placeholder style */
-    border-radius: 5px;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  color: #333;
+}
+
+/* Styles for the header */
+.aurora-forecast h2 {
+  color: #2a6592;
+  text-align: center;
+}
+
+/* Styles for the file content */
+.aurora-forecast pre {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 15px;
+  overflow-x: auto;
+  white-space: pre-wrap; /* Since pre-formatted text might be long */
+}
+
+/* Styles for loading message */
+.loading {
+  text-align: center;
+  color: #2a6592;
+}
+
+/* Styles for error message */
+.error {
+  color: red;
+  text-align: center;
+}

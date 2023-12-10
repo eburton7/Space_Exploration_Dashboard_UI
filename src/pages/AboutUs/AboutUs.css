@@ -1,0 +1,28 @@
+.purple-background {
+    background-color: #424874; 
+    min-height: 100vh; 
+    padding-top: 0; 
+    padding-bottom: 0;
+  }
+
+/* Remove margin from the first and last child elements */
+.purple-background > *:first-child {
+    margin-top: 0;
+  }
+  
+  .purple-background > *:last-child {
+    margin-bottom: 0;
+  }
+  .h1-custom-color {
+    color: #ffffff ; 
+    font-size: 2rem; 
+  font-weight: 800; /* Extra bold font weight */
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2); 
+  margin-bottom: 1rem; /* Space below the header */
+  }
+  .icon-style {
+    font-size: 3rem; /* Size of the icons */
+    margin-bottom: 2rem; /* Space below icons */
+    color: #ffffff; /* Color of the icons */
+    margin-top: 2rem; /* Space above icons */
+  }
