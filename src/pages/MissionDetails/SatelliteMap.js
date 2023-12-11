@@ -13,7 +13,7 @@ const SatelliteMap = ({ satelliteId, satelliteDetails }) => {
   useEffect(() => {
     const fetchSatellitePosition = async () => {
     try {
-      const response = await fetch(`http://localhost:3000/api/space-weather/satellites?search=${satelliteId}`);
+      const response = await fetch(`http://localhost:3001/api/space-weather/satellites?search=${satelliteId}`);
       const data = await response.json();
 
       if (data.length > 0) {

@@ -7,7 +7,7 @@ const AuroraForecast = () => {
     const [error, setError] = useState('');
   
   useEffect(() => {
-    fetch('http://localhost:3000/api/space-weather/forecast')
+    fetch('http://localhost:3001/api/space-weather/forecast')
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok');

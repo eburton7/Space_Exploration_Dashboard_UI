@@ -34,7 +34,7 @@ const SolarFlareChart = ({ selectedYear }) => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:3000/api/space-weather/solar-flares`
+          `http://localhost:3001/api/space-weather/solar-flares`
         );
         setFlares(response.data);
       } catch (error) {

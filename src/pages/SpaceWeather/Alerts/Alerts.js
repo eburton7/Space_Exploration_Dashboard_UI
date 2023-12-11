@@ -9,7 +9,7 @@ const ElectronFluxAlert = () => {
     useEffect(() => {
         const fetchAlertData = async () => {
             try {
-                const response = await axios.get('http://localhost:3000/api/space-weather/electron-flux-alerts');
+                const response = await axios.get('http://localhost:3001/api/space-weather/electron-flux-alerts');
                 setAlertData(response.data);
             } catch (error) {
                 console.error('Error fetching electron flux alert data:', error);
