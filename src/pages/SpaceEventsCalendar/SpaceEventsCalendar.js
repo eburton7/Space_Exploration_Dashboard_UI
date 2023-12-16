@@ -39,7 +39,7 @@ const SpaceEventsFilter = () => {
                     limit: limit !== '' ? limit : undefined,
                     days: days !== '' ? days : undefined,
                 };
-                const response = await axios.get('http://localhost:3001/api/space-weather/eonet-events', { params });
+                const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/space-weather/eonet-events`, { params });
                 setEvents(response.data);
                 setError('');
             } catch (err) {
