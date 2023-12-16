@@ -19,7 +19,7 @@ const GeomagneticStorm = () => {
                 if (endDateFilter) queryParams.append('endDate', endDateFilter);
                 if (kpIndexFilter) queryParams.append('kpIndex', kpIndexFilter);
                 console.log(`Fetching data with query: ${queryParams.toString()}`);
-                const response = await axios.get(`http://localhost:3001/api/space-weather?${queryParams.toString()}`);
+                const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/space-weather/solar-flares?${queryParams.toString()}`);
                 console.log('API response:', response.data);
                 const uniqueData = Array.from(new Map(response.data.map(item => [item['gstID'], item])).values());
                 setStorms(uniqueData);
